@@ -2,6 +2,9 @@
 
 Here I leave a bit of the md5 security and authentication system that I will be working on, it is a security microservice that I am creating for various systems that have a login, in case someone needs it. I am working it with nodejs , loopback, mongodb.
 
+# You can follow the process in this link:
+https://www.youtube.com/playlist?list=PLUzHPkQscM7LNyVaQ2hyC8L61_OTf0Tmb
+
 
 
 
