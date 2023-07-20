@@ -1,5 +1,13 @@
 # mc-seguridad
 
+Here I leave a bit of the md5 security and authentication system that I will be working on, it is a security microservice that I am creating for various systems that have a login, in case someone needs it. I am working it with nodejs , loopback, mongodb.
+
+
+
+
+
+
+
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
 
