@@ -5,7 +5,12 @@ Here I leave a bit of the MD5 security and authentication system that I will be 
 # You can follow the process in this link:
 https://www.youtube.com/playlist?list=PLUzHPkQscM7LNyVaQ2hyC8L61_OTf0Tmb
 
+<<<<<<< HEAD
 hola como estas
+=======
+in prosses
+
+>>>>>>> dd75af2804fef7a45673a0a3f219a04ccdc8fb3e
 
 
 
