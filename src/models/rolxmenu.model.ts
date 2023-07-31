@@ -39,6 +39,15 @@ export class Rolxmenu extends Entity {
   })
   Descargar: boolean;
 
+  @property({
+    type: 'string',
+  })
+  rolId?: string;
+
+  @property({
+    type: 'string',
+  })
+  menuId?: string;
 
   constructor(data?: Partial<Rolxmenu>) {
     super(data);
