@@ -1,4 +1,4 @@
-import {Entity, model, property, hasMany, belongsTo} from '@loopback/repository';
+import {Entity, belongsTo, hasMany, model, property} from '@loopback/repository';
 import {Login} from './login.model';
 import {Rol} from './rol.model';
 
@@ -47,9 +47,10 @@ export class Usuario extends Entity {
 
   @property({
     type: 'string',
-    required: true,
+    //required: true, el sistema le generara la clave por lo tanto quito requeried=true y tambien agrego el ? en clave para
+    //que pueda ser opcional ponerla
   })
-  Clave: string;
+  Clave?: string;
 
   @hasMany(() => Login)
   logins: Login[];
